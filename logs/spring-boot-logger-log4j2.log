@@ -1,0 +1,29 @@
+2021-10-14 19:19:36,416 INFO o.s.b.StartupInfoLogger [main] Starting SchoolBackendApplication using Java 15.0.2 on mbp.local with PID 6736 (/Users/nabin/Documents/projects/school-backend/target/classes started by nabin in /Users/nabin/Documents/projects/school-backend)
+2021-10-14 19:19:36,421 INFO o.s.b.SpringApplication [main] The following profiles are active: local
+2021-10-14 19:19:36,892 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-10-14 19:19:36,941 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 42 ms. Found 4 JPA repository interfaces.
+2021-10-14 19:19:37,264 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-10-14 19:19:37,270 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-10-14 19:19:37,271 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2021-10-14 19:19:37,271 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.53]
+2021-10-14 19:19:37,345 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-10-14 19:19:37,345 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 896 ms
+2021-10-14 19:19:37,450 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-10-14 19:19:37,485 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-10-14 19:19:37,578 INFO o.h.a.c.r.j.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-10-14 19:19:37,653 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2021-10-14 19:19:37,784 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-10-14 19:19:37,796 INFO o.h.d.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-10-14 19:19:38,245 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-10-14 19:19:38,251 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-10-14 19:19:38,550 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-10-14 19:19:39,044 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-10-14 19:19:39,059 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-10-14 19:19:39,067 INFO o.s.b.StartupInfoLogger [main] Started SchoolBackendApplication in 2.93 seconds (JVM running for 3.619)
+2021-10-14 19:19:46,398 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-10-14 19:19:46,398 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-10-14 19:19:46,399 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2021-10-14 19:20:09,707 INFO o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(3)-127.0.0.1] Application shutdown requested.
+2021-10-14 19:20:09,724 INFO o.s.o.j.AbstractEntityManagerFactoryBean [RMI TCP Connection(3)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-10-14 19:20:09,725 INFO c.z.h.HikariDataSource [RMI TCP Connection(3)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2021-10-14 19:20:09,731 INFO c.z.h.HikariDataSource [RMI TCP Connection(3)-127.0.0.1] HikariPool-1 - Shutdown completed.
